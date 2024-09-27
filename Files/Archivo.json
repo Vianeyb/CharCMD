@@ -1,0 +1,36 @@
+{
+	"TestCases" : 
+		[
+			{
+			"DestTestcaseName" : "TEST2",
+			"SourceTestcaseName" : "TEST2",
+			"TestEndTime" : "2021-11-17T14:04:55.516582",
+			"TestStartTime" : "2021-11-17T14:04:55.411475",
+			"Results" : [...]
+			}, ...
+			
+		],
+		"IOUnitIDs" : 
+			{
+			"cics:ABEND-1" : "EXEC CICS ABEND",
+			"cics:ASKTIME-1" : "EXEC CICS ASKTIME",
+			"cics:FORMATTIME-1" : "EXEC CICS FORMATTIME",
+			"cics:GET CONTAINER-1" : "EXEC CICS GET CONTAINER",
+			"cics:LINK-1" : "EXEC CICS LINK [LGSTSQ]",
+			"cics:PUT CONTAINER-1" : "EXEC CICS PUT CONTAINER",
+			"cics:RETURN-1" : "EXEC CICS RETURN",
+			"pgm:PROCEDURE DIVISION-1" : "PROCEDURE DIVISION",
+			"sql:CLOSE-1" : "EXEC SQL CLOSE [TESTMULTI,Zip_Cursor,CusClaim_Cursor]",
+			"sql:FETCH-1" : "EXEC SQL FETCH [Zip_Cursor]",
+			"sql:FETCH-2" : "EXEC SQL FETCH [CusClaim_Cursor]",
+			"sql:FETCH_ROWSET_NEXT-1" : "EXEC SQL FETCH ROWSET NEXT [TESTMULTI]",
+			"sql:OPEN-1" : "EXEC SQL OPEN [TESTMULTI]",
+			"sql:OPEN-2" : "EXEC SQL OPEN [Zip_Cursor,CusClaim_Cursor]",
+			"sql:SELECT_INTO-1" : "EXEC SQL SELECT INTO [POLICY,ENDOWMENT,MOTOR]",
+			"sql:SELECT_INTO-2" : "EXEC SQL SELECT INTO [POLICY,HOUSE]",
+			"sql:SELECT_INTO-3" : "EXEC SQL SELECT INTO [CUSTOMER,MOTOR]",
+			"sql:SELECT_INTO-4" : "EXEC SQL SELECT INTO [POLICY,COMMERCIAL]",
+			"sql:SELECT_INTO-5" : "EXEC SQL SELECT INTO [POLICY,COMMERCIAL]",
+			"sql:SELECT_INTO-6" : "EXEC SQL SELECT INTO [POLICY,CLAIM]"
+			}
+	}
